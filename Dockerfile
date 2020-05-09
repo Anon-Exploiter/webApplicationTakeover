@@ -15,7 +15,6 @@ WORKDIR /var/www/html/
 RUN rm -rfv index.html
 
 RUN git clone https://github.com/Anon-Exploiter/webApplicationTakeover .
-RUN mv .git oldSourceCode
 RUN chown www-data:www-data /var/www/html -R 
 RUN chmod 755 /var/www/html
 
