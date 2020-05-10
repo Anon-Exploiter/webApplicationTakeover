@@ -9,7 +9,7 @@
 
     <title><?php echo $title; ?></title>
 
-    <link href="/css/app.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
 
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -35,7 +35,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand" href="index.php">
                 PentestLabs
             </a>
         </div>
@@ -46,10 +46,10 @@
             </ul>
 
             <ul class="nav navbar-nav">
-              <li><a href="/">Home</a></li>
-              <li><a href="/about.php">About</a></li>
-              <li><a href="/services.php">Services</a></li>
-              <li><a href="/uploadCV.php">Upload Your CV</a></li>
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="services.php">Services</a></li>
+              <li><a href="uploadCV.php">Upload Your CV</a></li>
             </ul>
         </div>
     </div>
